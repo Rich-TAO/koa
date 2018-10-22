@@ -1,0 +1,22 @@
+{
+  "name": "koa-demo",
+  "version": "1.0.0",
+  "description": "练习koa",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.3",
+    "koa-bodyparser": "^4.2.1",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "mime": "^2.3.1",
+    "mysql": "^2.11.1",
+    "mz": "^2.7.0",
+    "nunjucks": "^3.1.3",
+    "sequelize": "^3.24.1"
+  }
+}
