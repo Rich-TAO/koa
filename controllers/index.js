@@ -16,7 +16,7 @@ var b = async (ctx, next)=>{
     let psw = ctx.request.body.psw || '';
     console.log(name,psw)
     if(name !== '' && psw !== ''){
-        ctx.response.body= `<h4>hello ${name}</h4>`
+        ctx.response.body= `<h4>hello1 ${name}</h4>`
     }
 };
 
